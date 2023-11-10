@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-package main;
+package demo;
+
+option go_package = "github.com/tylerstamour/client/proto";
 
 service Demo {
   rpc Ping (PingRequest) returns (PongReply) {}

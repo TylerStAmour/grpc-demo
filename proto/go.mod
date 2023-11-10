@@ -1,4 +1,4 @@
-module github.com/TylerStAmour/grpc-demo/proto
+module github.com/tylerstamour/grpc-demo/proto
 
 go 1.21.1
 

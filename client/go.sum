@@ -4,8 +4,8 @@ github.com/golang/protobuf v1.5.3/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiu
 github.com/google/go-cmp v0.5.5/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
 github.com/google/go-cmp v0.5.9/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
-github.com/tylerstamour/grpc-demo/proto v0.0.0-20231110171812-c313e6ca1266 h1:p/Ro3vIVr9oCLsSo2ArQ6PcgwhgfiZwzMcvxLOE0cHc=
-github.com/tylerstamour/grpc-demo/proto v0.0.0-20231110171812-c313e6ca1266/go.mod h1:ywwp3RsJ8pjRBTl92dzMSJKKneHP71G10glsfn+15I8=
+github.com/tylerstamour/grpc-demo/client/proto v0.0.0-20231112032009-9b32fa7d9447 h1:TESqb741ztlB+ALwGfZfhE2BwPk1gQwCf+hFUNRXDQ8=
+github.com/tylerstamour/grpc-demo/client/proto v0.0.0-20231112032009-9b32fa7d9447/go.mod h1:okEFCC5DNJ2IalYteR4RPH2I5p7FWOxz9MLCf81/tY0=
 golang.org/x/net v0.17.0 h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM=
 golang.org/x/net v0.17.0/go.mod h1:NxSsAGuq816PNPmqtQdLE42eU2Fs7NoRIZrHJAlaCOE=
 golang.org/x/sys v0.14.0 h1:Vz7Qs629MkJkGyHxUlRHizWJRG2j8fbQKjELVSNhy7Q=

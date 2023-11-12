@@ -2,9 +2,10 @@ package main
 
 import (
 	"context"
-	"github.com/tylerstamour/grpc-demo/proto"
+	"github.com/tylerstamour/grpc-demo/client/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
+	"time"
 )
 
 const (
@@ -18,8 +19,11 @@ func main() {
 	}
 	defer conn.Close()
 
-	c := proto.NewClient(conn)
-	reply, err := c.Ping(context.Background(), &proto.PingRequest{Message: "ping"})
+	c := proto.NewDemoClient(conn)
+	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
+	defer cancel()
+
+	reply, err := c.Ping(ctx, &proto.PingRequest{Message: "Ping!"})
 	if err != nil {
 		panic(err)
 	}
